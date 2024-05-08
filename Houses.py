@@ -1,0 +1,39 @@
+from pydantic import BaseModel
+# Class which describes house descripcion
+class House(BaseModel):
+    MSSubClass: float
+    MSZoning: float
+    LotArea: float
+    LotShape: float
+    LandContour: float
+    LotConfig: float
+    Neighborhood: float
+    OverallQual: float
+    OverallCond: float
+    YearRemodAdd: float
+    RoofStyle: float
+    Exterior1st: float
+    ExterQual: float
+    Foundation: float
+    BsmtQual: float
+    BsmtExposure: float
+    BsmtFinType1: float
+    HeatingQC: float
+    CentralAir: float
+    stFlrSF: float
+    ndFlrSF: float
+    GrLivArea: float
+    BsmtFullBath: float
+    FullBath: float
+    HalfBath: float
+    KitchenQual: float
+    TotRmsAbvGrd: float
+    Functional: float
+    Fireplaces: float
+    FireplaceQu: float
+    GarageFinish: float
+    GarageCars: float
+    PavedDrive: float
+    WoodDeckSF: float
+    ScreenPorch: float
+    SaleCondition: float
