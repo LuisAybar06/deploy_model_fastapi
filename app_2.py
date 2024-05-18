@@ -34,13 +34,6 @@ def predict_banknote():
         'predictions': predictions.tolist()
     }
 
-    # if(prediction[0]>11.14984174816577):
-    #     prediction="Bad selection"
-    # else:
-    #     prediction="Approved"
-    # return {
-    #     'prediction': prediction
-    # }
 
 # 5. Expose to public url
 ngrok_tunnel = ngrok.connect(8000)

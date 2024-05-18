@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+pandas
+numpy
+joblib
+pyngrok
+matplotlib
+scikit-learn
+nest_asyncio

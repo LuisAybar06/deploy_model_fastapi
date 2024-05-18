@@ -23,7 +23,7 @@ def index():
 # 3. Expose the prediction functionality, make a prediction from the passed
 #    JSON data and return the predicted house price
 @app.post('/predict')
-def predict_banknote(data:BankNote):
+def predict_houseprice(data:House):
     MSSubClass=data.MSSubClass
     MSZoning=data.MSZoning
     LotArea=data.LotArea
@@ -69,6 +69,14 @@ def predict_banknote(data:BankNote):
     return {
         'predictions': prediction.tolist()
     }
+
+    # if(prediction[0]>11.14984174816577):
+    #     prediction="Bad selection"
+    # else:
+    #     prediction="Approved"
+    # return {
+    #     'prediction': prediction
+    # }
 
 # 3. Expose url public
 ngrok_tunnel = ngrok.connect(8000)
