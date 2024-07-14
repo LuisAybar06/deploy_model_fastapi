@@ -79,5 +79,5 @@ def predict_houseprice(data:House):
     # }
 
 # 3. Expose url public
-ngrok_tunnel = ngrok.connect(8000)
-print('Public URL:', ngrok_tunnel.public_url)
+# ngrok_tunnel = ngrok.connect(8000)
+# print('Public URL:', ngrok_tunnel.public_url)

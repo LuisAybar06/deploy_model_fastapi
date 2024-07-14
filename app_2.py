@@ -35,6 +35,6 @@ def predict_banknote():
     }
 
 
-# 5. Expose to public url
-ngrok_tunnel = ngrok.connect(8000)
-print('Public URL:', ngrok_tunnel.public_url)
+# # 5. Expose to public url
+# ngrok_tunnel = ngrok.connect(8000)
+# print('Public URL:', ngrok_tunnel.public_url)
