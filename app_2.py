@@ -2,11 +2,9 @@
 import uvicorn
 from fastapi import FastAPI
 from Houses import House
-import numpy as np
 import pandas as pd
 from joblib import load
-from pyngrok import ngrok
-import nest_asyncio
+
 
 # 2. Create the app object
 app = FastAPI()
@@ -34,7 +32,3 @@ def predict_banknote():
         'predictions': predictions.tolist()
     }
 
-
-# # 5. Expose to public url
-# ngrok_tunnel = ngrok.connect(8000)
-# print('Public URL:', ngrok_tunnel.public_url)
