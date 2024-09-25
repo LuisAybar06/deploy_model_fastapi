@@ -21,7 +21,7 @@ X_train = X_train[features]
 @app.get('/')
 def index():
     return {'message': 'Hello, World'}
-
+ 
 
 # 4. Expose the prediction functionality, make a prediction using X_train data
 #    and return the predicted Bank Note with the confidence

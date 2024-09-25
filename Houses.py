@@ -9,7 +9,7 @@ class House(BaseModel):
     LotConfig: float
     Neighborhood: float
     OverallQual: float
-    OverallCond: float
+    OverallCond: float 
     YearRemodAdd: float
     RoofStyle: float
     Exterior1st: float

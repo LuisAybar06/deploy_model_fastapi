@@ -73,3 +73,4 @@ def predict_houseprice(data:House):
     # return {
     #     'prediction': prediction
     # }
+ 

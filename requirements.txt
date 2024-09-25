@@ -6,4 +6,4 @@ joblib
 pyngrok
 matplotlib
 scikit-learn
-nest_asyncio
+nest_asyncio 
