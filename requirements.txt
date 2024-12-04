@@ -3,7 +3,7 @@ uvicorn
 pandas
 numpy
 joblib
-pyngrok
+pyngrok 
 matplotlib
 scikit-learn
 nest_asyncio 

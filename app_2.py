@@ -5,7 +5,7 @@ from Houses import House
 import pandas as pd
 from joblib import load
 
-
+ 
 # 2. Create the app object
 app = FastAPI()
 

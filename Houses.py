@@ -1,8 +1,8 @@
-from pydantic import BaseModel
+from pydantic import BaseModel 
 # Class which describes house descripcion
 class House(BaseModel):
     MSSubClass: float
-    MSZoning: float
+    MSZoning: float 
     LotArea: float
     LotShape: float
     LandContour: float

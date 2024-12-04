@@ -6,7 +6,7 @@ from joblib import load
 
 # 2. Create the app object
 app = FastAPI()
-
+ 
 # 3. Load the model
 classifier = load("linear_regression.joblib")
 
